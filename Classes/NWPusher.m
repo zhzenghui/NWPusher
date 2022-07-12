@@ -11,9 +11,9 @@
 #import "NWNotification.h"
 
 
-static NSString * const NWSandboxPushHost = @"gateway.sandbox.push.apple.com";
-static NSString * const NWPushHost = @"gateway.push.apple.com";
-static NSUInteger const NWPushPort = 2195;
+static NSString * const NWSandboxPushHost = @"api.sandbox.push.apple.com";
+static NSString * const NWPushHost = @"api.push.apple.com";
+static NSUInteger const NWPushPort = 443;
 
 @implementation NWPusher
 
